@@ -35,7 +35,8 @@ Output: ['a','b','c','d','e','f']
 
 const addInTheMiddle = (arr, val) => {
     // Solution code here...
-    
+    Input.splice( 1, 0, "bye"); 
+
     arr.splice(val, 2, ...elements);
     insert(3 )
 }
